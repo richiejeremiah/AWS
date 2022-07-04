@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> PHI De-Identification App</title>
+    <script src="script.js"></script>
+    <!--To be able to use PlotlyJS-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1>PHI De-Identification App</h1>
+    <hr>
+    <br>
+    <h2></h2>
+
+    <!--Text Input for Sentiment Analysis-->
+    <textarea placeholder="Enter text" name="Enter your text" id="textInput" cols="150" rows="10"></textarea>
+    <br>
+    <button id = "sentButton" onclick="getResp();">De-Identify!</button>
+    <br>
+
+
+    <!--Where we will be outputting visuals with PlotlyJS-->
+    <div id = "myDiv"></div>
+
+</body>
+
+
+</html
